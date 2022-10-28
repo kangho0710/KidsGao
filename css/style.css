@@ -1,3 +1,10 @@
+body {
+    padding-top: 0;
+    padding-left: 17rem;
+    box-sizing: border-box;
+}
+
+
 /********************
  * Left
  ********************** */
@@ -41,4 +48,61 @@
  li:hover{
     background-color: gray;
  }
+ /*****************
+  * Central
+  * ***************/
+
+
+ #central{
+   /*position: relative;*/
+   /*float: right;*/
+   top: 200px;
+   left: -750px;
+   padding: 80px 70px 80px 70px;
+
+ }
+
+ /***********
+  * About
+  * *********/
+
+ #central .ABOUT{
+ /*  position: absolute;*/
+   min-height: 100vh;
+
+
+ }
+
+ #central .name{
+   font-size: 35px;
+   font-weight: bold;
+ }
+ #central a{
+   color: darkred;
+ }
+
+ #central .Skill{
+   position: absolute;
+   top: 350px;
+ }
+
+/**************
+ * Skill
+ * ************/
+
+ #central .SKILL .mine{
+   font-size: 35px;
+   font-weight: bold;
+   line-height: 200px;
+ }
+ #central .SKILL .backend{
+   font-size: 30px;
+ }
+
+ #central .SKILL .Java{
+   font-size: 25px;
+ }
+ 
+
+
 
