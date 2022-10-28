@@ -19,14 +19,26 @@
  	margin: 100px 0 0 40px;
  	border-style: solid;
  }
+ a{
+    text-decoration: none;
+    color: #fff;
+ }
 
  #left .btn-wrap{
  	margin: 100px 0px 0 3px;
  	font-size: 25px;
- 	font-style:;
  	text-align: center;
  	text-decoration: none;
  	list-style: none;
  	color: white;
+    line-height: 50px;
+    text-transform: uppercase;
+ }
+
+ li{
+    transition: background-color 0.2s, margin-left 0.5s;
+ }
+ li:hover{
+    background-color: gray;
  }
 
