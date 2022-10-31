@@ -95,12 +95,28 @@ body {
    font-weight: bold;
    line-height: 200px;
  }
+
+ /**********************
+ * Backend
+ ******************* */
  #central .SKILL .backend{
    font-size: 30px;
  }
 
  #central .SKILL .Java{
    font-size: 25px;
+ }
+
+ /* *********************
+ * Frontend
+ ********************** */
+
+ #central .SKILL .frontend{
+  font-size: 30px;
+ }
+ 
+ #central .SKILL .frontend .html{
+  font-size: 25px;
  }
  
 
